@@ -1,10 +1,60 @@
+* {
+  transition: all;
+  transition-duration: 0.5s;
+}
+
 .App {
   text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  align-items: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+button {
+  border: 2px solid black;
+  margin: 0.2rem;
+  font-size: 1.6rem;
+  border-radius: 8px;
+  padding: 3px 9px;
+  text-transform: capitalize;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+div>button:hover{
+  border: 2px solid grey;
+  font-size: 1.7rem;
+}
+
+.red {
+  background-color: red;
+  color: white;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+.purple {
+  background-color: purple;
+  color: white;
+}
+
+.hotpink {
+  background-color: hotpink;
+  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
